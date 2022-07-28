@@ -39,3 +39,10 @@ main {
    width: 267px;
    height: 471px;
 }
+
+a > img {
+   width: 50px;
+   margin: 10px;
+   border-radius: 50%;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
