@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+img {
+   width: calc(100vw - 10px);
+   width: 100vw;
+}
+
+a {
+   display: block;
+   background-color: #dd0000;
+   text-align: center;
+   padding: 20px;
+   color: white;
+   text-decoration: none;
+}
+
+::-webkit-scrollbar {
+   width: 0px;
+}
+
+a:hover {
+   animation: glow 700ms infinite alternate;
+   animation-timing-function: cubic-bezier(0.5, 0.25, 0.5, 0.75);
+}
+
+@keyframes glow {
+   from {
+      background-color: #dd0000;
+   }
+   to {
+      background-color: rgb(156, 0, 0);
+   }
+}
